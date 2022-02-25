@@ -14,3 +14,4 @@ if ( userInput === "Queen" ) {
 } else {
   $("#response").html("Another one bites the dust");
 }
+
