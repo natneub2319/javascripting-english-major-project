@@ -10,7 +10,7 @@ if ( userInput === "burrito" ) {
 let userInput;
 userInput = prompt("Who is your favorite music artist?", "Type your answer here.");
 if ( userInput === "Queen" ) {
-  $("#response").html("Don't stop me now! You got great taste");
+  $("#response").html("We are the champions, my friend! You got great taste");
 } else {
   $("#response").html("Another one bites the dust");
 }
