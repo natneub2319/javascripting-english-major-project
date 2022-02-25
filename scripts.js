@@ -16,7 +16,7 @@ if ( userInput === "Queen" ) {
 }
 */
 
-let makeABurrito;
+/* let makeABurrito;
 makeABurrito = function(beansVariable){
   let beansResponse;
   beansResponse = "You ordered " + beansVariable + " beans. Good choice!";
@@ -25,3 +25,4 @@ makeABurrito = function(beansVariable){
   let blackBeans;
   blackBeans = "black";
   makeABurrito(blackBeans);
+*/
