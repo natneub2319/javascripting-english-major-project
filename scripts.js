@@ -19,10 +19,9 @@ if ( userInput === "Queen" ) {
 let makeABurrito;
 makeABurrito = function(beansVariable){
   let beansResponse;
-  beansResponse = "You ordered" + beansVariable + " beans. Good choice!";
+  beansResponse = "You ordered " + beansVariable + " beans. Good choice!";
   $("#response").html(beansResponse);
 };
   let blackBeans;
   blackBeans = "black";
   makeABurrito(blackBeans);
-
