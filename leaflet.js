@@ -41,14 +41,14 @@ thousandthPolyline = L.polyline(thousandth, {color: "#d33682"}
 let circle;
 circle = L.circle(washingtonSquarePark, {radius: 100,
                                          color: "#859900",
-                                         fillColor: "#cb4b16",
+                                         fillColor: "#859900",
                                          opacity: 0.9,
                                          fillOpacity: 0.25}
           ).addTo(firstMap);
 let circle;
 circle = L.circle(bobstLibrary), {radius: 100,
                                          color: "#859900",
-                                         fillColor: "#cb4b16",
+                                         fillColor: "#859900",
                                          opacity: 0.9,
                                          fillOpacity: 0.25}
           ).addTo(firstMap);
