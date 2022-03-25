@@ -15,11 +15,11 @@ bobstLibrary.bindPopup("This is Bobst Library.");
 let bobstCoords;
 bobstCoords = L.latLng(40.729444, -73.997222);
 firstMap.panTo(bobstCoords);
-/*
+
 let eifelTower;
 eiffelTower = L. latLng(48.858222, 2.2945);
 firstMap.panTo(eiffelTower);
-*/
+
 
 let washingtonSquarePark, washingtonSquareParkMarker;
 let tenThousandth, tenThousandthPolygon, thousandth, thousandthPolyline;
@@ -41,13 +41,13 @@ thousandthPolyline = L.polyline(thousandth, {color: "#d33682"}
 let circle;
 circle = L.circle(washingtonSquarePark, {radius: 100,
                                          color: "#859900",
-                                         fillColor: "#859900",
+                                         fillColor: "#cb4b16",
                                          opacity: 0.9,
                                          fillOpacity: 0.25}
           ).addTo(firstMap);
-circle = L.circle(bobstLibrary), {radius: 100,
+circle = L.circle(bobstLibrary), {radius: 50,
                                          color: "#859900",
-                                         fillColor: "#859900",
+                                         fillColor: "#cb4b16",
                                          opacity: 0.9,
                                          fillOpacity: 0.25}
           ).addTo(firstMap);
