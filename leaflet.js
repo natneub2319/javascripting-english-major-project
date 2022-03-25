@@ -12,9 +12,7 @@ let bobstLibrary;
 bobstLibrary = L.marker([40.729444, -73.997222]);
 bobstLibrary.addTo(firstMap);
 bobstLibrary.bindPopup("This is Bobst Library.");
-let bobstCoords;
-bobstCoords = L.latLng(40.729444, -73.997222);
-firstMap.panTo(bobstCoords);
+
 /*
 let eifelTower;
 eiffelTower = L. latLng(48.858222, 2.2945);
