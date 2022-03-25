@@ -45,7 +45,6 @@ circle = L.circle(washingtonSquarePark, {radius: 100,
                                          opacity: 0.9,
                                          fillOpacity: 0.25}
           ).addTo(firstMap);
-let circle;
 circle = L.circle(bobstLibrary), {radius: 100,
                                          color: "#859900",
                                          fillColor: "#859900",
