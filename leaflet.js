@@ -32,12 +32,17 @@ thousandth = [[washingtonSquarePark.lat + 0.001, washingtonSquarePark.lng + 0.00
 thousandthPolyline = L.polyline(thousandth, {color: "#d33682"}
                       ).addTo(firstMap);
 */
-let washingtonSquarePark, washingtonSquareParkMarker, bobstLibrary, bobstLibraryMarker;
+let washingtonSquarePark, washingtonSquareParkMarker, bobstLibrary, bobstLibraryMarker, viniCucinaBlasi, viniCucinaBlasiMarker, ilGiordinaAlFori, ilGiordinaAlForiMarker, baccanale, baccanaleMarker;
 washingtonSquarePark = L.latLng(40.730833, -73.9975);
 washingtonSquareParkMarker = L.marker(washingtonSquarePark).bindPopup("This is Washington Square Park").addTo(firstMap);
 bobstLibrary = L.latLng(40.729444, -73.997222);
 bobstLibraryMarker = L.marker(bobstLibrary).bindPopup("This is Bobst Library").addTo(firstMap);
-
+viniCucinaBlasi = L.latLng(41.896783, 12.476332);
+viniCucinaBlasiMarker = L.marker(viniCusinaBlasi).bindPopup("This is Vini & Cucina Blasi").addTo(firstMap);
+ilGiordinaAlFori = L.latLng(41.893233, 12.488525);
+ilGiordinaAlFori = L.marker(ilGiordinaAlFori).bindPopup("This is il Giordana al Fori").addTo(firstMap);
+baccanale = L.latLng(41.895996, 12.472184);
+baccanaleMarker = L.marker(baccanale).bindPopup("This is Baccanale").addTo(firstMap);
 let circle;
 circle = L.circle(washingtonSquarePark, {radius: 100,
                                          color: "#859900",
