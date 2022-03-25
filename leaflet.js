@@ -19,7 +19,7 @@ firstMap.panTo(bobstCoords);
 let eifelTower;
 eiffelTower = L. latLng(48.858222, 2.2945);
 firstMap.panTo(eiffelTower);
-
+*/
 
 let washingtonSquarePark, washingtonSquareParkMarker;
 let tenThousandth, tenThousandthPolygon, thousandth, thousandthPolyline;
@@ -38,7 +38,7 @@ thousandth = [[washingtonSquarePark.lat + 0.001, washingtonSquarePark.lng + 0.00
               [washingtonSquarePark.lat - 0.001, washingtonSquarePark.lng + 0.001]];
 thousandthPolyline = L.polyline(thousandth, {color: "#d33682"}
                       ).addTo(firstMap);
-*/
+
 
 let circle;
 circle = L.circle(washingtonSquarePark, {radius: 100,
@@ -47,6 +47,7 @@ circle = L.circle(washingtonSquarePark, {radius: 100,
                                          opacity: 0.9,
                                          fillOpacity: 0.25}
           ).addTo(firstMap);
+let circle;
 circle = L.circle(bobstLibrary), {radius: 50,
                                          color: "#859900",
                                          fillColor: "#cb4b16",
