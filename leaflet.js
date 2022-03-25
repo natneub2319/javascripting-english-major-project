@@ -15,7 +15,7 @@ bobstLibrary.bindPopup("This is Bobst Library.");
 let bobstCoords;
 bobstCoords = L.latLng(40.729444, -73.997222);
 firstMap.panTo(bobstCoords);
-
+/*
 let eifelTower;
 eiffelTower = L. latLng(48.858222, 2.2945);
 firstMap.panTo(eiffelTower);
@@ -38,6 +38,8 @@ thousandth = [[washingtonSquarePark.lat + 0.001, washingtonSquarePark.lng + 0.00
               [washingtonSquarePark.lat - 0.001, washingtonSquarePark.lng + 0.001]];
 thousandthPolyline = L.polyline(thousandth, {color: "#d33682"}
                       ).addTo(firstMap);
+*/
+
 let circle;
 circle = L.circle(washingtonSquarePark, {radius: 100,
                                          color: "#859900",
