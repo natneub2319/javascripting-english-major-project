@@ -43,7 +43,7 @@ myBurritoObject = {
   };
 $("#response").html(myBurritoObject["tortilla"]);
 */
-
+/*
 let myHabaneroSauceSquirts, myBurritoObject;
 myHabaneroSauceSquirts = 3;
 myBurritoObject = {
@@ -61,3 +61,4 @@ myBurritoObject = {
 };
 $("#response").html("Your burrito has " + myBurritoObject.habaneroSauceSquirts + " squirts of habanero.");
 myBurritoObject.spiciness();
+*/
