@@ -152,7 +152,7 @@ body, html {
           type: 'Feature',
           "geometry": { "type": "Point", "coordinates": [12.4745354, 41.8966557]},
           "properties": {
-              'title': 'Buddy Roma Veggie Restaurante',
+              'title': 'Buddy Roma Veggy Restaurante',
               'marker-color': '#70C03C',
               'marker-symbol': 'square',
               'marker-size': 'medium',
@@ -189,7 +189,17 @@ body, html {
                 ['http://molloymediaarchaeology.org/images/grant_pole4.jpg','The wooden monument is intended to serve as a reminder to visitors that history never goes away -- it is forever present and forever a part of the people it touches.']
               ]
           }
-      }];
+      }, {
+        type: 'Feature',
+        "geometry": {"type": "Point", "coordinates": [12.481579, 41.905514]},
+        "properties": {
+            'title': 'Cafe Greco',
+            'marker-color': '#F9FF00',
+            'marker-symbol': 'cup',
+            'marker-size': 'medium',
+           ]
+        }
+      };
 
       // Add custom popup html to each marker.
       myLayer.on('layeradd', function(e) {
@@ -251,7 +261,7 @@ body, html {
       });
 
       <!-- SET THE MAP VIEW HERE -->
-      map.setView([41.9, 24.5], 11);
+      map.setView([41.9, 12.5], 11);
       </script>
       <br><p>This is the first paragraph of my webpage, despite the div above.
       Keep writing in this section. This is the first paragraph of my webpage, despite the div above. Keep writing in this section.</p></br>
