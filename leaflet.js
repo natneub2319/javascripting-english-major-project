@@ -8,9 +8,7 @@ L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x
     });
 tileLayer.addTo(firstMap);
 firstMap.setView([40.730833, -73.9975], 16);
-
 let viniCucinaBlasi, viniCucinaBlasiMarker, ilGiordinaAlFori, ilGiordinaAlForiMarker, baccanale, baccanaleMarker;
-
 viniCucinaBlasi = L.latLng(41.896783, 12.476332);
 viniCucinaBlasiMarker = L.marker(viniCusinaBlasi).bindPopup("This is Vini & Cucina Blasi").addTo(firstMap);
 ilGiordinaAlFori = L.latLng(41.893233, 12.488525);
