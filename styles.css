@@ -4,14 +4,14 @@ body {
 
 p {
   font-family: 'Ubuntu', 'rockwell';
-  color: #103470;
+  color: #1D1070;
   background-color: #C16CE9;
   text-align: center;
 }
 
 h1 {
   font-family: 'Ubuntu', 'rockwell';
-  color: #103470;
+  color: #1D1070;
   background-color: #C16CE9;
   text-align: left;
 }
@@ -31,7 +31,7 @@ h1 {
 
 #response {
   font-family: 'Ubuntu', 'optima';
-  color: #FF4646;
+  color: #1D1070;
   background-color: #C16CE9;
   text-align: left;
 }
