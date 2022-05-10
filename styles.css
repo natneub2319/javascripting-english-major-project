@@ -6,7 +6,7 @@ p {
   font-family: 'Ubuntu', 'rockwell';
   color: #103470;
   background-color: #C16CE9;
-  text-align: left;
+  text-align: center;
 }
 
 h1 {
@@ -31,7 +31,7 @@ h1 {
 
 #response {
   font-family: 'Ubuntu', 'optima';
-  color: #000000;
+  color: #FF4646;
   background-color: #C16CE9;
   text-align: left;
 }
