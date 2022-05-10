@@ -7,7 +7,7 @@ L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x
       maxZoom: 18
     });
 tileLayer.addTo(firstMap);
-firstMap.setView([44.56, 12.54], 16);
+firstMap.setView([40.3, 8.24], 16);
 let buddyRoma, buddyRomaMarker, pastaVino, pastaVinoMarker, baGhetto, baGhettoMarker;
 buddyRoma = L.latLng(41.8966557, 12.4745354);
 buddyRomaMarker = L.marker(buddyRoma).bindPopup("This is Buddy Roma, a vegan/vegetarian restaurant.").addTo(firstMap);
