@@ -7,7 +7,7 @@ L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x
       maxZoom: 18
     });
 tileLayer.addTo(firstMap);
-firstMap.setView([40.730833, -73.9975], 16);
+firstMap.setView([41.9028, 12.4964], 16);
 //the following code places a marker on the map
 /*let bobstLibrary;
 bobstLibrary = L.marker([40.729444, -73.997222]);
