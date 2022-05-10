@@ -6,7 +6,7 @@ p {
   font-family: 'Ubuntu', 'rockwell';
   color: #1D1070;
   background-color: #C16CE9;
-  text-align: center;
+  text-align: left;
 }
 
 h1 {
@@ -33,7 +33,7 @@ h1 {
   font-family: 'Ubuntu', 'optima';
   color: #1D1070;
   background-color: #C16CE9;
-  text-align: left;
+  text-align: center;
 }
 /*.second-paragraph {
   color: #b58900;
