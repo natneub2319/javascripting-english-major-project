@@ -3,33 +3,33 @@ body {
 }
 
 p {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', 'optima';
   color: #000000;
   background-color: #C16CE9;
-  text-align: center;
+  text-align: left;
 }
 
 h1 {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', 'optima';
   text-align: center;
 }
 
 .navbar-brand {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', 'optima';
 }
 
 .nav-item {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', 'optima';
 }
 
 #title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', 'optima';
 }
 
 #response {
-  font-family: 'Ubuntu', sans-serif;
-  color: #000000;
-  text-align: center;
+  font-family: 'Ubuntu', 'optima';
+  color: #C16CE9;
+  text-align: left;
 }
 /*.second-paragraph {
   color: #b58900;
