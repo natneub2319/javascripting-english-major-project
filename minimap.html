@@ -98,7 +98,9 @@ html {
 
 <div id='map'></div>
 </div>
-     <!-- API ACCESS FOR THE MAP -->
+
+
+ <!-- API ACCESS FOR THE MAP -->
       <script src='https://code.jquery.com/jquery-1.11.0.min.js'></script>
       <script>
       L.mapbox.accessToken = 'pk.eyJ1IjoibWFwcGxlZ2EiLCJhIjoiY2lqbzk3aGVlMDB0bHRvbTVvNXB1azZxdyJ9.PpTLv2su5er4AqXhF-LK4A';
@@ -179,8 +181,16 @@ html {
                  ['https://www.practice.molloynewmedia.org/group2.jpg','Another group picture but this time it is the entire Molloy group together! This picture was taken by our tour guide; later on I edited the Pope and Hilary Duff into the awkward empty spaces in the picture! XD']
                ]
            }
-       }];   
-        
+     A}]; 
+
+// Add custom popup html to each marker.
+myLayer.on('layeradd', function(e) {
+    var marker = e.layer;
+    var feature = marker.feature;
+    var images = feature.properties.images
+    var slideshowContent = '';
+
+    for(var i = 0; i < images.length; i++) {
         var img = images[i];
 
         slideshowContent += '<div class="image' + (i === 0 ? ' active' : '') + '">' +
@@ -233,7 +243,7 @@ $('#map').on('click', '.popup .cycle a', function() {
 });
 
 <!-- SET THE MAP VIEW HERE -->
-map.setView([41.9, 14.2], 11);
+map.setView([41, -74], 8);
 </script>
 
 
